@@ -47,8 +47,11 @@ optional arguments:
                         从某个索引位置开始计算评价指标，默认为0，表示从索引为 0 的语音开始计算
   --sr SR               
                         语音文件的采样率
+```
 
+例如：
 
+```shell
 e.g. python main.py --nosiy_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ --denosiy_dir ../se_-5_0_30_50_VCC/output/ --clean_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
 ```
 
