@@ -6,21 +6,24 @@ A flexible and  compact framework for calculating speech enhancement evaluation 
 
 
 ```shell
-Speech_Enhancement_Evaluation_Metrics
+Speech Enhancement Evaluation Metrics
 
 optional arguments:
   -h, --help            show this help message and exit
-  -n NOSIY_DIR, --nosiy_dir NOSIY_DIR
-  -dn DENOSIY_DIR, --denosiy_dir DENOSIY_DIR
-  -c CLEAN_DIR, --clean_dir CLEAN_DIR
-  -o OUTPUT_PATH, --output_path OUTPUT_PATH
-                        必须以 xls 的拓展名结尾
-  -l LIMIT, --limit LIMIT
-                        默认为0，表示不限制数量
-  --offset OFFSET       默认为0，表示无偏移
-  --sr SR               采样率
+  --nosiy_dir NOSIY_DIR
+                        带噪语音目录
+  --denosiy_dir DENOSIY_DIR
+                        降噪语音的目录
+  --clean_dir CLEAN_DIR
+                        纯净语音的目录
+  --output_path OUTPUT_PATH
+                        评价指标存储的全路径，必须以拓展名 .xls 结尾
+  --limit LIMIT         被测试语音的数量。默认为0，表示不限制数量
+  --offset OFFSET       从某个索引位置开始计算评价指标，默认为0，表示从索引为 0 的语音开始计算
+  --sr SR               语音文件的采样率
 
-e.g. python main.py -n /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ -dn ../se_-5_0_30_50_VCC/output/ -c /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
+
+e.g. python main.py --nosiy_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ --denosiy_dir ../se_-5_0_30_50_VCC/output/ --clean_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
 ```
 
 ## ToDo

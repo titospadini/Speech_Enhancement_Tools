@@ -86,7 +86,7 @@ if __name__ == "__main__":
     parser.add_argument("--denosiy_dir", default="./denoisy", type=str, help="降噪语音的目录")
     parser.add_argument("--clean_dir", default="./clean", type=str, help="纯净语音的目录")
     parser.add_argument("--output_path", default="./output.xls", type=str, help="评价指标存储的全路径，必须以拓展名 .xls 结尾")
-    parser.add_argument("-l", "--limit", default=0, type=int, help="被测试语音的数量。默认为0，表示不限制数量")
+    parser.add_argument("--limit", default=0, type=int, help="被测试语音的数量。默认为0，表示不限制数量")
     parser.add_argument("--offset", default=0, type=int, help="从某个索引位置开始计算评价指标，默认为0，表示从索引为 0 的语音开始计算")
     parser.add_argument("--sr", default=16000, type=int, help="语音文件的采样率")
 
