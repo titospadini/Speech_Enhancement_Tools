@@ -4,6 +4,28 @@
 
 ## Usage
 
+安装依赖：
+
+```shell
+# PESQ
+git clone https://github.com/vBaiCai/python-pesq.git
+cd python-pesq
+python setup.py install
+
+# STOI
+pip install pystoi
+
+# tqdm
+pip install tqdm
+
+# Librosa
+pip install librosa
+
+# tablib
+pip install tablib
+```
+
+使用方法：
 
 ```shell
 Speech Enhancement Evaluation Metrics
