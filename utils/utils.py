@@ -36,3 +36,4 @@ def find_aligned_wav_files(wav_files_dir_A, wav_files_dir_B, limit=0, offset=0):
             "文件 {} 与 文件 {} 不对称，这可能由于两个目录文件数量不同".format(wav_file_path_A, wav_file_path_B)
 
     return wav_file_paths_A, wav_file_paths_B, length
+
