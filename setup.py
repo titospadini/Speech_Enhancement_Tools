@@ -4,8 +4,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='SPEEM ',
-    version='1.0.0'
+    name='SPEEM',
+    version='1.0.0',
     description=('Calculate indicators saved as Excel.'),
     author='haoxiang',
     author_email='haoxiangsnr@gmail.com',
@@ -33,10 +33,8 @@ setup(
         'Topic :: Software Development :: Libraries'
     ],
     install_requires=[
-        'pesq',
         'stoi',
         'tqdm',
-        'lxml',
         'librosa',
         'tablib',
     ]
