@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Speech-Enhancement-Evaluation-Metrics ',
+    name='SPEEM ',
     version='1.0.0'
     description='Calculate the evaluation indicators related to speech enhancement, and saved as an Excel spreadsheet.',
     author='haoxiang',
