@@ -17,9 +17,9 @@ setup(
     url='https://github.com/haoxiangsnr/Speech_Enhancement_Evaluation_Metrics.git',
     classifiers=[
         'Development Status :: 4 - Beta',
-        'Operating System :: Linux',
+        'Operating System :: OS Independent',
         'Intended Audience :: Developers',
-        'License :: Linux :: MIT License',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
         'Programming Language :: Python :: Implementation',
         'Programming Language :: Python :: 2',
