@@ -4,15 +4,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Speech_Enhancement_Evaluation_Metrics ',
-    version=1.0,
-    description='计算语音增强相关的评价指标，计算结果会被保存为 Excel 表格',
+    name='Speech-Enhancement-Evaluation-Metrics ',
+    version='1.0.0'
+    description='Calculate the evaluation indicators related to speech enhancement, and saved as an Excel spreadsheet.',
     author='haoxiang',
     author_email='haoxiangsnr@gmail.com',
     maintainer='haoxiang',
     maintainer_email='haoxiangsnr@gmail.com',
-    license='MIT License',
+    license='MIT',
     packages=find_packages(),
+    include_package_data=False,
+    zip_safe=True,
     platforms=["all"],
     url='https://github.com/haoxiangsnr/Speech_Enhancement_Evaluation_Metrics.git',
     classifiers=[
