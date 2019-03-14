@@ -7,9 +7,15 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
+<<<<<<< HEAD
     name='SPEMM',
     version='1.1.9',
     description='TEST DEMO',
+=======
+    name='SPEEM',
+    version='1.0.0',
+    description=('Calculate indicators saved as Excel.'),
+>>>>>>> dc57c9d46766399d8079e0d9b9c8f3d65b7baaf6
     author='haoxiang',
     author_email='haoxiangsnr@gmail.com',
     maintainer='haoxiang',
@@ -41,9 +47,16 @@ setup(
         'Topic :: Software Development :: Libraries'
     ],
     install_requires=[
+<<<<<<< HEAD
         # 'pystoi',
         # 'tqdm',
         # 'librosa',
         # 'tablib',
+=======
+        'stoi',
+        'tqdm',
+        'librosa',
+        'tablib',
+>>>>>>> dc57c9d46766399d8079e0d9b9c8f3d65b7baaf6
     ]
 )
