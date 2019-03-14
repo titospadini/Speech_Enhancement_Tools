@@ -13,6 +13,7 @@ git clone https://github.com/vBaiCai/python-pesq.git
 cd python-pesq
 python setup.py install
 
+# 安装 SETools
 pip intall SETools
 ```
 
