@@ -1,34 +1,25 @@
-# Speech Enhancement Evaluation Metrics
+# Speech Enhancement Tools（SETools）
 
-计算语音增强相关的评价指标，计算结果会被保存为 Excel 表格。
+- [x] 计算语音增强相关的评价指标，计算结果会被保存为 Excel 表格。
+- [] 自动下载 TIMIT 与 NoiseX92，并合成噪声
 
 ## Usage
 
-安装依赖：
+安装 
 
 ```shell
-# PESQ
+# 手动安装 PESQ Wrapper @vBaiCai
 git clone https://github.com/vBaiCai/python-pesq.git
 cd python-pesq
 python setup.py install
 
-# STOI
-pip install pystoi
-
-# tqdm
-pip install tqdm
-
-# Librosa
-pip install librosa
-
-# tablib
-pip install tablib
+pip intall SETools
 ```
 
 使用方法：
 
 ```shell
-Speech Enhancement Evaluation Metrics
+Speech Enhancement Tools
 
 optional arguments:
   -h, --help            
@@ -52,10 +43,5 @@ optional arguments:
 例如：
 
 ```shell
-python main.py --nosiy_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ --denosiy_dir ../se_-5_0_30_50_VCC/output/ --clean_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
+SETools --nosiy_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ --denosiy_dir ../se_-5_0_30_50_VCC/output/ --clean_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
 ```
-
-## ToDo
-
-- [x] 实现测试 stoi 和 metric 的评价功能
-- [x] 生成表格
