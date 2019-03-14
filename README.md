@@ -1,7 +1,7 @@
 # Speech Enhancement Tools（SETools）
 
 - [x] 计算语音增强相关的评价指标，计算结果会被保存为 Excel 表格。
-- [] 自动下载 TIMIT 与 NoiseX92，并合成噪声
+- [ ] 自动下载 TIMIT 与 NoiseX92，并合成噪声
 
 ## Usage
 
