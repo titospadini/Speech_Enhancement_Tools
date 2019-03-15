@@ -48,8 +48,3 @@ optional arguments:
 ```shell
 SETools --nosiy_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ --denosiy_dir ../se_-5_0_30_50_VCC/output/ --clean_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
 ```
-
-## ToDo
-
-- [x] 实现测试 stoi 和 metric 的评价功能
-- [x] 生成表格
