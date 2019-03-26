@@ -19,8 +19,8 @@ def cal():
     parser = argparse.ArgumentParser(
         description="Speech Enhancement Evaluation Metrics"
     )
-    parser.add_argument("--nosiy_dir", required=True, type=str, help="带噪语音目录")
-    parser.add_argument("--denosiy_dir", required=True, type=str, help="降噪语音的目录")
+    parser.add_argument("--noisy_dir", required=True, type=str, help="带噪语音目录")
+    parser.add_argument("--denoisy_dir", required=True, type=str, help="降噪语音的目录")
     parser.add_argument("--clean_dir", required=True, type=str, help="纯净语音的目录")
     parser.add_argument("--output_path", default="./output.xls", type=str, help="评价指标存储的全路径，必须以拓展名 .xls 结尾")
     parser.add_argument("--limit", default=0, type=int, help="被测试语音的数量。默认为0，表示不限制数量")
@@ -30,9 +30,9 @@ def cal():
     args = parser.parse_args()
 
     comp(
-        noisy_dir=args.nosiy_dir,
+        noisy_dir=args.noisy_dir,
         clean_dir=args.clean_dir,
-        denoisy_dir=args.denosiy_dir,
+        denoisy_dir=args.denoisy_dir,
         sr=args.sr,
         limit=args.limit,
         offset=args.offset,
