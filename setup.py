@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='SETools',
-    version='1.2.1',
+    version='1.2.2',
     description='Speech Enhancement Tools Packages',
     author='haoxiang',
     author_email='haoxiangsnr@gmail.com',

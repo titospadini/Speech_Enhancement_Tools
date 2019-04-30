@@ -27,9 +27,9 @@ Speech Enhancement Tools
 optional arguments:
   -h, --help            
                         show this help message and exit
-  --nosiy_dir NOSIY_DIR
+  --noisy_dir NOSIY_DIR
                         带噪语音目录
-  --denosiy_dir DENOSIY_DIR
+  --denoisy_dir DENOSIY_DIR
                         降噪语音的目录
   --clean_dir CLEAN_DIR
                         纯净语音的目录
@@ -46,5 +46,5 @@ optional arguments:
 例如：
 
 ```shell
-SETools --nosiy_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ --denosiy_dir ../se_-5_0_30_50_VCC/output/ --clean_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
+SETools --noisy_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/noisy/ --denoisy_dir ../se_-5_0_30_50_VCC/output/ --clean_dir /media/imucs/DataDisk/haoxiang/Release/speech_enhancement/release_-5_0_30_50/test/clean
 ```
