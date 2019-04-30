@@ -27,9 +27,9 @@ Speech Enhancement Tools
 optional arguments:
   -h, --help            
                         show this help message and exit
-  --noisy_dir NOSIY_DIR
+  --noisy_dir NOISY_DIR
                         带噪语音目录
-  --denoisy_dir DENOSIY_DIR
+  --denoisy_dir DENOISY_DIR
                         降噪语音的目录
   --clean_dir CLEAN_DIR
                         纯净语音的目录
